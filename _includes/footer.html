@@ -1,5 +1,10 @@
 {% include svg-icons.html %}
 
 {% if site.footer-text %}
-<p>{{ site.footer-text }}</p>
+<p>
+{{ site.footer-text }}
+{% if site.description %}
+&nabla; {{ site.description }}
+{% endif %}
+</p>
 {% endif %}
