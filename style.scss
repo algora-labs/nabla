@@ -71,7 +71,7 @@ h6 {
 
 p {
   color: $text-color;
-  margin: 15px 0;
+  margin: 0 0 15px 0;
 }
 
 a {
@@ -316,7 +316,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -553,7 +553,7 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 0px 0;
   text-align: center;
 
   p {
