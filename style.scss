@@ -16,12 +16,14 @@
 
 html {
   font-size: $base-font-size;
+  height: 100%;
 }
 
 body {
   font-family: $base-font;
   color: $base-color;
   line-height: 1.6;
+  height: 100%;
 }
 
 .container {
@@ -29,6 +31,10 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+}
+
+#main {
+  min-height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,9 +52,12 @@ h1, h2, h3, h5 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 26px;
   a {
     color: inherit;
+  }
+  a:visited {
+    color: $base-lighten-color;
   }
 }
 
@@ -400,7 +409,8 @@ nav {
 
 // Posts
 .posts > .post {
-  padding-bottom: 2em;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
   border-bottom: 1px solid $divider-color;
 }
 
@@ -411,7 +421,14 @@ nav {
 
 .post {
   h1 {
-    margin-bottom: .1em;
+    display: inline;
+  }
+
+  .canonical {
+    font-weight: 300;
+    font-size: $small-font-size;
+    color: $base-lighten-color;
+    margin-left: 3px;
   }
 
   .date {
@@ -451,6 +468,27 @@ nav {
   .read-more {
     font-size: 15px;
   }
+}
+
+.post .entry p {
+  font-size: small;
+}
+
+.search {
+  text-align: right;
+}
+
+.search form label {
+  font-size: small;
+  color: $base-lighten-color;
+}
+
+#lunrsearchresults ul {
+  list-style: none;
+}
+
+#lunrsearchresults ul li:before {
+  content: "∇";
 }
 
 .pagination {
