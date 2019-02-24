@@ -1,6 +1,8 @@
 # Nabla uses Jekyll
 Build a Jekyll blog in minutes, without touching the command line.
 
+Please visit [abousselmi.github.io/nabla](https://abousselmi.github.io/nabla) to see it in action.
+
 ## Post formatting
 
 Example of a post:
