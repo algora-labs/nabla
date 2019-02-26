@@ -28,14 +28,10 @@ permalink: /tags/
       {% for post in tag[1] %}
         {% if post.title != null %}
           <li>
-            {% if post.link %}
-              <a href="{{ post.link }}">
-            {% else %}
-              <a href="{{ site.baseurl }}{{ post.url }}">
-            {% endif %}
-                {{ post.title }}
-              </a>
-              <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+              <a href="{{ post.link }}">{{ post.title }}</a> <time>{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ site.baseurl }}{{ post.url }}">
+                <div class="comment-page">
+                  <a href="{{ site.baseurl }}{{ post.url }}">Commenter &#8594;</a>
+                </div>
           </li>
         {% endif %}
       {% endfor %}
