@@ -5,7 +5,7 @@ search_omit: true
 ---
 
 <div class="search">
-  <form method="get" action="/search" data-search-form>
+  <form method="get" action="{{ site.baseurl }}/search" data-search-form>
     <input type="search" name="q" id="q" placeholder="Recherche" data-search-input style="width: 100%;"/>
     <label>Powred by <a href="https://lunrjs.com/">Lunr</a></label>
   </form>
@@ -15,8 +15,8 @@ search_omit: true
     <ul></ul>
 </div>
 
-<script src="/assets/javascript/vendors/lunr.min.js"></script>
-<script src="/assets/javascript/search.js"></script>
+<script src="{{ site.baseurl }}/assets/javascript/vendors/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/assets/javascript/search.js"></script>
 
 <script>
 var searchTerm = getQueryVariable('q');
