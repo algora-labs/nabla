@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trust, l'expert toulousain en cybersécurité lève 2 millions d'euros pour accélérer son déploiement commercial"
+title: "ITrust, l'expert toulousain en cybersécurité lève 2 millions d'euros pour accélérer son déploiement commercial"
 link: "https://www.usine-digitale.fr/article/itrust-l-expert-toulousain-en-cybersecurite-leve-2-millions-d-euros-pour-accelerer-son-deploiement-commercial.N811195"
 canonical: "usine-digitale.fr"
 tags: [startup, cybersecurite, usine-digitale.fr]
