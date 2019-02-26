@@ -6,6 +6,8 @@ description: Agrégateur d'actualités technologiques
 avatar: #https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 navigation:
+  - name: Soumettre
+    url: https://github.com/abousselmi/nabla/issues/new/choose
   - name: Archive
     url: /archive
   - name: Tags
@@ -14,13 +16,13 @@ navigation:
     url: /about
 
 # Pagination
-paginate: 5
+paginate: 7
 
 # Includes an icon in the footer for each username you enter
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
+  email: ayoub.bousselmi@gmail.com
   facebook:
   flickr:
   github: abousselmi
