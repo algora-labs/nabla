@@ -14,6 +14,8 @@ Point de Contact se veut être un projet communautaire où des personnes indépe
 
 Pour contribuer, il suffit d'aller sur le menu soumettre, et vous serez rediriger vers github, pour créer votre contribution.
 
+Une contribution n'est pas automatiquement intégrée. Toutes les contributions passent par une phase de modération (qui peut durer entre quelques minutes et quelques heures). Il faut s'attendre à ce que une contribution ne soit pas accèptée si le contenu est hors sujet ou ne concerne pas un sujet technique pur.
+
 ### Modèle économique
 
 Gratuit à vie.
