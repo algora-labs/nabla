@@ -10,14 +10,16 @@ Example of a post:
 ```console
 ---
 layout: post
-title: "Here goes the title"
-tags: [tag1, second tag, third, etc]
+title: "Hello, World! program"
+tags: [hello, world, wikipedia.org]
 comments: true
-link: "http://example.com/news/126"
-canonical: "example.com"
-excerpt: "<p>Bla bla bla...</p>"
+link: "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+canonical: "wikipedia.org"
+excerpt: "Hello world"
 ---
 ```
+
+Note that the last tag is the canonical url which will be removed when printing tags.
 
 ## Search
 
