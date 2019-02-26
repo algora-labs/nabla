@@ -4,8 +4,28 @@
 <p>
 {{ site.footer-text }}
 {% if site.description %}
-&nabla; {{ site.description }}
+{{ site.description }} <br>
 {% endif %}
+<a href="{{ site.baseurl }}/">{{ site.name }}</a>
+&nabla;
+{% if paginator.next_page %}
+<a href="{{ site.baseurl}}{{ paginator.next_page_path }}">Suivant</a>
+&nabla;
+{% endif %}
+{% if paginator.previous_page %}
+<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Précédent</a>
+&nabla;
+{% endif %}
+{% for nav in site.navigation %}
+{% if nav.url contains 'http://' or nav.url contains 'https://' %}
+<a href="{{ nav.url }}">{{ nav.name }}</a>
+{% else %}
+<a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.name }}</a>
+{% endif %}
+{% if forloop.last == false %}
+&nabla;
+{% endif %}
+{% endfor %}
 </p>
 {% endif %}
 
