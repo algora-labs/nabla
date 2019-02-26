@@ -34,8 +34,12 @@ layout: default
         </ul>
       </div>
 
-      <div class="entry">
-        {{ post.excerpt }}
+      <div class="post-entry">
+          <p>{{ post.excerpt }}</p>
+      </div>
+
+      <div>
+        <a href="{{ post.url }}">Commenter &#8594;</a>
       </div>
 
     </article>
