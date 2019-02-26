@@ -22,7 +22,7 @@ Gratuit à vie.
 
 Le projet Point de Contact (symbolisé par l'opérateur Nabla) est un projet d'Algora-Labs: [https://algora-labs.com/](https://algora-labs.com/)
 
-![Algora-labs](/assets/images/algora-labs-logo.png "Algora-Labs")
+![Algora-labs]({{ site.baseurl }}/assets/images/algora-labs-logo.png "Algora-Labs")
 
 ### Contact
 
