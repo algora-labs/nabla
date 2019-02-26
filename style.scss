@@ -52,7 +52,7 @@ h1, h2, h3, h5 {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 18px;
   a {
     color: inherit;
   }
@@ -62,15 +62,15 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 14px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 12px;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 10px;
   color: $base-lighten-color;
 }
 
@@ -384,7 +384,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: $base-font-size;
 
   @include mobile {
     float: none;
@@ -471,7 +471,7 @@ nav {
 }
 
 .post .post-entry p {
-  font-size: small;
+  font-size: $small-font-size;
 }
 
 .post .page-entry p {
@@ -479,10 +479,13 @@ nav {
   margin-top: 25px;
 }
 
-.comment-page a{
-  font-size: small;
-  color: $base-lighten-color;
-
+.comment-page {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  a {
+    font-size: $small-font-size;
+    color: $base-lighten-color;
+  }
 }
 
 .search {
@@ -490,7 +493,7 @@ nav {
 }
 
 .search form label {
-  font-size: small;
+  font-size: $small-font-size;
   color: $base-lighten-color;
 }
 
@@ -627,7 +630,7 @@ footer {
     }
 
     em {
-      font-size: 18px;
+      font-size: 14px;
       line-height: 1.5;
       margin-top: -.75em;
       position: absolute;
