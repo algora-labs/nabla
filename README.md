@@ -11,11 +11,11 @@ Example of a post:
 ---
 layout: post
 title: "Hello, World! program"
-tags: [hello, world, wikipedia.org]
-comments: true
 link: "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
 canonical: "wikipedia.org"
+tags: [hello, world, wikipedia.org]
 excerpt: "Hello world"
+comments: true
 ---
 ```
 
