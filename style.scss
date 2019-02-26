@@ -422,6 +422,7 @@ nav {
 .post {
   h1 {
     display: inline;
+    vertical-align: middle;
   }
 
   .canonical {
@@ -429,6 +430,7 @@ nav {
     font-size: $small-font-size;
     color: $base-lighten-color;
     margin-left: 3px;
+    vertical-align: middle;
   }
 
   .date {
