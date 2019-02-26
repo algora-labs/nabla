@@ -479,12 +479,19 @@ nav {
   margin-top: 25px;
 }
 
-.comment-page {
+.post .comment-page {
   margin-top: -15px;
   margin-bottom: -15px;
   a {
     font-size: $small-font-size;
-    color: $base-lighten-color;
+    color: $base-lighten-color !important;
+  }
+}
+
+.page .comment-page {
+  a {
+    font-size: $small-font-size;
+    color: $base-lighten-color !important;
   }
 }
 
