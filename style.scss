@@ -470,8 +470,13 @@ nav {
   }
 }
 
-.post .entry p {
+.post .post-entry p {
   font-size: small;
+}
+
+.post .page-entry p {
+  font-size: $base-font-size;
+  margin-top: 25px;
 }
 
 .search {
