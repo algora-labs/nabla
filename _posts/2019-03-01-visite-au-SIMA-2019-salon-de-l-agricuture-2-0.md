@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visite au SIMA 2019, salon de l'agricuture 2.0"
+title: "Nouveautés du SIMA 2019, salon de l'agricuture 2.0"
 link: "https://www.youtube.com/watch?v=HRY6OfLHDGQ"
 canonical: "youtube.com"
 tags: [agricuture, youtube.com]
