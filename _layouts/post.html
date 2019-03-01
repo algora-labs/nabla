@@ -8,10 +8,6 @@ layout: default
   </h1>
 
   <div clsss="meta">
-    <span class="date">
-      {{ page.date | date: "%Y-%m-%d" }}
-    </span>
-
     <ul class="tag">
       {% for tag in page.tags %}
       <li>
@@ -21,6 +17,10 @@ layout: default
       </li>
       {% endfor %}
     </ul>
+
+    <span class="date">
+      Posté sur {{ site.name }} le {{ page.date | date: "%Y-%m-%d" }}
+    </span>
   </div>
 
   <div class="page-entry">
