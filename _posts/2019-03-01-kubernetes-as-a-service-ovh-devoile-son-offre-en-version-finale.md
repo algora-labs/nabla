@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HKubernetes as a Service: OVH dévoile sa nouvelle arme en version finale"
+title: "Kubernetes as a Service: OVH dévoile sa nouvelle arme en version finale"
 link: "https://www.journaldunet.com/solutions/cloud-computing/1421810-kubernetes-as-a-service-ovh-devoile-son-offre-en-version-finale/"
 canonical: "journaldunet.com"
 tags: [ovh, cloud, kubernetes, container, journaldunet.com]
