@@ -38,12 +38,14 @@ var documents = [{% for page in site.posts %}{
   "id": {{ counter }},
   "url": "{{ page.link }}",
   "title": "{{ page.title }}",
+  "tags": "{{ page.tags | array_to_sentence_string | replace: '.', ' ' | replace: '-', ' ' | replace: '  ', ' ' | replace: '"', ' ' }}",
   "excerpt": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.excerpt| markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
   }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
 
 var idx = lunr(function () {
   this.ref('id')
   this.field('title')
+  this.field('tags')
   this.field('url')
   this.field('excerpt')
 
