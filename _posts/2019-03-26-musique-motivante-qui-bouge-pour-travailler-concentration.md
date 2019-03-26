@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Musique motivante et pour travailler : playlist anti coup de mou !"
+title: "Musique motivante et pour travailler: playlist anti coup de mou!"
 link: "https://www.macreationdentreprise.fr/musique-motivante-qui-bouge-pour-travailler-concentration/"
 canonical: "macreationdentreprise.fr"
 tags: [music, macreationdentreprise.fr]
