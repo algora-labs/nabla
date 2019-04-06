@@ -37,7 +37,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: Copyright © 2019 -Présent Point de Contact. Tous droits réservés.
+footer-text: Copyright © 2019 - Présent Point de Contact. Tous droits réservés.
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts (without adding disqus.com at the end)
 disqus: pointdecontact
