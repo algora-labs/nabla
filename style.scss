@@ -322,6 +322,9 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  @include mobile {
+    margin-bottom: 20px;
+  }
 }
 
 .masthead {
