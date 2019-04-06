@@ -1,7 +1,7 @@
 # Nabla uses Jekyll
 Build a Jekyll blog in minutes, without touching the command line.
 
-Please visit [abousselmi.github.io/nabla](https://abousselmi.github.io/nabla) to see it in action.
+Please visit [nabla.algora-labs.com](https://nabla.algora-labs.com/) to see it in action.
 
 ## Post formatting
 
