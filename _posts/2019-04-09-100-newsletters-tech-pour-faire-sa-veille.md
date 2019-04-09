@@ -6,5 +6,4 @@ canonical: "maddyness.com"
 tags: [veille, outil, maddyness.com]
 excerpt: "Une liste de 100 newsletters (toutes gratuites) et choisies pour leur qualité éditoriale, leur réputation ou parfois simplement parce qu’elles sont LA référence sur un sujet particulier."
 comments: true
-date
 ---
