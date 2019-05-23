@@ -15,6 +15,7 @@ link: "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
 canonical: "wikipedia.org"
 tags: [hello, world, wikipedia.org]
 excerpt: "Hello world"
+date: 2019-05-23 12:00
 comments: true
 ---
 ```
