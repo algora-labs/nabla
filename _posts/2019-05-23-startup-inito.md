@@ -5,6 +5,6 @@ link: "https://www.inito.com/"
 canonical: "inito.com"
 tags: [startup, medecine, inito, inito.com]
 excerpt: ""
-date: 2019-05-23 11:21:00 +2000
+date: 2019-05-23 11:21:00
 comments: true
 ---
