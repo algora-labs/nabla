@@ -10,11 +10,11 @@ Example of a post:
 ```console
 ---
 layout: post
-title: "Hello, World! program"
-link: "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
-canonical: "wikipedia.org"
+title: Hello, World! program
+link: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program
+canonical: wikipedia.org
 tags: [hello, world, wikipedia.org]
-excerpt: "Hello world"
+excerpt: Hello world
 date: 2019-05-23 12:00
 comments: true
 ---
