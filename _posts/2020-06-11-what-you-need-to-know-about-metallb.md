@@ -1,10 +1,10 @@
 ---
 layout: post
-title: What you need to know about MetalLB
-link: https://www.objectif-libre.com/en/blog/2019/06/11/metallb/
+title:  Ce qu'il faut savoir sur MetalLB
+link: https://www.objectif-libre.com/fr/blog/2019/06/11/metallb/
 canonical: objectif-libre.com
 tags: [kubernetes, k8s, system, administration, cloud, metallb, ingree, loadbalancer, objectif-libre.com]
-excerpt: This article is an introduction to MetalLB, a solution to expose services if the Kubernetes cluster is not deployed on a Cloud platform.
+excerpt: Cet article est une introduction à MetalLB, une solution permettant d'exposer des services si le cluster Kubernetes n'est pas déployé sur une plate-forme en cloud.
 date: 2020-06-11 18:00
 comments: true
 ---
