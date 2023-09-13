@@ -33,11 +33,11 @@ footer-links:
   rss: rss
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: abousselmi7
+  twitter: #
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: Copyright © 2019 - Présent Point de Contact. Tous droits réservés.
+footer-text: Point de Contact. Tous droits réservés.
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts (without adding disqus.com at the end)
 disqus: algora-labs
